@@ -1,0 +1,89 @@
+name: flutter_project
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  calendar_date_picker2: ^0.4.0
+  # 通用工具类组件
+  common_utils: ^2.1.0
+
+  cupertino_icons: ^1.0.2
+  # 网络请求组件
+  dio: ^5.0.2
+  # 事件通信组件
+  event_bus: ^2.0.0
+  # 路由管理组件
+  fluro: ^2.0.5
+  flutter:
+    sdk: flutter
+
+  # 国际化多语言配置
+  flutter_localizations:
+    sdk: flutter
+  # 屏幕适配组件
+  flutter_screenutil: ^5.7.0
+  # 吐司弹框组件
+  fluttertoast: ^8.2.1
+  # 国际化多语言组件
+  intl: ^0.17.0
+  line_icons: ^2.0.1
+  # 文件系统组件
+  path_provider: ^2.0.13
+  # 权限管理组件
+  permission_handler: ^10.2.0
+
+  # 状态管组件
+  provider: ^6.0.5
+  # 本地存储组件
+  shared_preferences: ^2.0.18
+
+  # webSocket组件
+  web_socket_channel: ^2.3.0
+  # 打开本地文件组件
+  open_file: ^3.2.1
+  # 拍照、图片选择组件
+  image_picker: ^0.8.7
+  # 轮播图组件
+  flutter_card_swiper: ^2.0.1
+  # 多媒体播放组件
+  video_player: ^2.6.0
+  # 徽章提示组件
+  badges: ^3.0.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+flutter_intl:
+  enabled: true
